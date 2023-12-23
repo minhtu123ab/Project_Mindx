@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/87/87373.png" type="image/x-icon">
+    <link rel="stylesheet" href="/css/login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Login Apple</title>
+</head>
+<body>
+    <div class="all-noerror" id="login-noerror-id">
+        <div class="modal">
+            <span>Bạn đã đăng nhập thành công. Vui lòng đợi chút</span>
+            <img src="https://png.pngtree.com/element_our/20190523/ourlarge/pngtree-green-checkmark-error-image_1082147.jpg" alt="">
+        </div>
+    </div>
+    <div class="all-noerror-reg" id="reg-noerror-id">
+        <div class="modal">
+            <span>Bạn đã đăng kí thành công. Vui lòng đăng nhập lại</span>
+            <img src="https://png.pngtree.com/element_our/20190523/ourlarge/pngtree-green-checkmark-error-image_1082147.jpg" alt="">
+        </div>
+    </div>
+    <div id="all-dn">
+        <form class="login-all login" id="login-form">
+            <p class="heading">SIGN IN</p>
+            <label class="usename-text text">UseName</label>
+            <input autocomplete="off" class="login1 usename" id="input-use" type="tel" placeholder="Nhập số điện thoại">
+            <p id="erroruselogin"></p>
+            <br>
+            <label class="password-text text">PassWord</label>
+            <input class="login1 password" id="input-pass" type="password" placeholder="Nhập mật khẩu">
+            <br>
+            <div class="button-all">
+                <button class="register login2" type="button" id="btn-register">Đăng ký</button>
+                <button class="login-dn login2" id="btn-login" type="submit">Đăng nhập</button>
+            </div>          
+        </form>
+    </div>
+    <div id="all-dn-1">
+        <form class="login-all-1 login-1" id="register-form">
+            <p class="heading-1">REGISTER</p>
+            <label class="usename-text-1 text-1">Name</label>
+            <input autocomplete="off" class="login1-1 usename-0" id="input-name" type="text" placeholder="Nhập tên người dùng">
+            <p id="errorname"></p>
+            <br>
+            <label class="usename-text-1 text-1">UseName</label>
+            <input autocomplete="off" class="login1-1 usename-1" id="input-use-1" type="tel" placeholder="Nhập số điện thoại để đăng kí">
+            <p id="erroruse"></p>
+            <br>
+            <label class="password-text-1 text-1">PassWord</label>
+            <input class="login1-1 password-1" id="input-pass-1" type="password" placeholder="Nhập mật khẩu">
+            <p id="errorpass"></p>
+            <br>
+            <label class="password-again-text password-text-1 text-1">PassWord Again</label>
+            <input class="password-again login1-1 password-1" id="input-pass-again-1" placeholder="Nhập lại mật khẩu" type="password">
+            <p id="errorpassagain"></p>
+            <div class="button-all-1">
+                <button class="register-1 login2-1" id="btn-back-1" type="button">Quay Lại</button>
+                <button class="login-dk-1 login2-1" id="btn-register-1" type="submit">Đăng ký</button>
+            </div>          
+        </form>
+    </div>
+    <div class="flash">
+        <div class="flash-all"></div>
+    </div>
+    <div class="camera-all">
+        <div class="camera-all-1">
+            <img class="camera" src="/image/z4912710247852_3958b3c5e9871411c1434a2196762dc5.jpg" alt="Ảnh">
+            <div class="camera-1"></div>
+        </div>
+    </div>
+    <script  src="/js/login.js"></script>
+</body>
+</html>

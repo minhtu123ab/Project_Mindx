@@ -1,0 +1,1750 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/87/87373.png" type="image/x-icon">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Apple Store</title>
+</head>
+<body>
+    <div class="cart-all" id="cart-all-id">
+        <div class="cart">
+            <div class="thead">
+                <span class="th">Tên sản phẩm</span>
+                <span class="th">Hình ảnh</span>
+                <span class="th">Giá sản phẩm</span>
+                <span class="th">Tùy chọn</span>
+            </div>
+            <div class="tbody" id="product-cart">
+            </div>
+        </div>
+        <div class="button-cart-all">
+            <button id="thanhtoan-cart">Thanh Toán</button>
+            <button id="delete-all-cart">Delete All</button>
+            <button id="close-cart">Đóng</button>
+        </div>
+    </div>
+
+
+
+
+
+
+    <div class="push-cart-all" id="push-cart-id">
+        <div class="modal">
+            <p>Sản phẩm đã được thêm vào giỏ hàng!</p>
+        </div>
+    </div>
+    <div class="push-cart-all" id="muahang-id">
+        <div class="modal">
+            <p>Cảm ơn bạn đã mua hàng!</p>
+        </div>
+    </div>
+    <div class="push-cart-all" id="sorry-cart">
+        <div class="modal-sorry">
+            <p>(Xin lỗi vì sự bất tiện này)</p>
+            <p>Hiện tại tính năng giỏ hàng đang được nâng cấp</p>
+        </div>
+    </div>
+    <nav class="menu-all">
+        <ul>
+            <div class="menu">
+                <li><i class="fab fa-apple" id="logo"></i></li>
+                <div><i class="fas fa-bars" id="bars-all">
+                    <div id="navbar-2">
+                        <li><a href="#" class="menu-home">Home</a></li>
+                        <li><a href="#iphone-all" class="menu-phone">Iphone</a></li>
+                        <li><a href="#mac-all" class="menu-mac">Mac</a></li>
+                        <li><a href="#watch-all" class="menu-watch">Watch</a></li>
+                        <li><a href="#ipad-all" class="menu-ipad">Ipad</a></li>
+                        <li><a href="#accessory-all" class="menu-accessory">Accessory</a></li>
+                    </div>
+                </i></div>
+                <div class="navbar">
+                    <li><a href="#" class="menu-home">Home</a></li>
+                    <li><a href="#iphone-all" class="menu-phone">Iphone</a></li>
+                    <li><a href="#mac-all" class="menu-mac">Mac</a></li>
+                    <li><a href="#watch-all" class="menu-watch">Watch</a></li>
+                    <li><a href="#ipad-all" class="menu-ipad">Ipad</a></li>
+                    <li><a href="#accessory-all" class="menu-accessory">Accessory</a></li>
+                </div>
+                <div id="login-shop">
+                    <div class="menu-search">
+                        <button class="btn-search" id="btn-giohang"><i class="fas fa-shopping-cart"></i></button>
+                    </div>
+                    <div class="menu-login-0" id="menu-login-id-0">
+                        <a href="./login.html">
+                            <button class="register" id="login-all"><i class="fas fa-sign-in-alt"></i> <span class="text-login">Đăng nhập</span></button>
+                        </a>
+                        <div id="name-id"><i class="fas fa-user"></i> <span id="text-name"></span></div>
+                    </div>
+                    <div class="menu-login" id="menu-login-id">
+                        <a href="./login.html">
+                            <button class="register"><i class="fas fa-sign-out-alt"></i> <span class="text-login">Đăng xuất</span></button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </ul>
+    </nav>
+
+    <div class="img-style">
+        <div class="img-beautiful">        
+            <div style="background-image: url(/image/6377662_2E96BBA8-91B3-4A73-B479-D998A91D1801.webp);"></div>
+            <div style="background-image: url(/image/iPhone-14-Pro.webp);"></div>
+            <div style="background-image: url(/image/iphone-15-pro-1118.jpg);"></div>
+            <div style="background-image: url(/image/fii1670713231.jpg);"></div>
+            <div style="background-image: url(/image/Apple-iPhone-15-Pro-lineup-hero-230912.jpg.og.jpg);"></div>
+            <div style="background-image: url(/image/so-sanh-iphone-14promax-va-iphone-15promax-6.webp);"></div>
+        </div>
+    </div>
+    <br>
+    <h1 class="heading"><i class="fab fa-apple"></i> APPLE</h1>
+    <br>
+
+
+    <div id="iphone-all">
+        <h2 class="iphone"><i class="fab fa-apple"></i> Iphone</h2>
+        <br>
+        <video loop autoplay src="/video/large_2x.mp4"></video>
+        <br> <br>
+        <div class="ch-iphone">
+            
+            <div class="btn-heading-all">
+                <button id="heading-iphone-prm" class="btn-iphone">
+                    <i class="fas fa-bars"></i>
+                    Iphone Pro Max
+                </button>
+                <button id="heading-iphone-pr" class="btn-iphone">
+                    <i class="fas fa-bars"></i>
+                    Iphone Pro
+                </button>
+                <button id="heading-iphone-thuong" class="btn-iphone">
+                    <i class="fas fa-bars"></i>
+                    Iphone Thường
+                </button>
+            </div>
+            <br>
+
+
+
+
+            <div class="ch" id="iphone-promax">
+            <div class="iphone15prm">
+                <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/42/305658/s16/iphone-15-pro-max-blue-titan-2-650x650.jpg" class="img-iphone15prm1T" alt="">
+                <p class="name">IPHONE 15 PRO MAX</p>
+                <br>
+                <p class="gia">49.990.000₫</p>
+                <br>
+                <br>
+                <div class="thongso">
+                    <div class="thongso">
+                        <div class="icon">
+                            <span class="text-icon-1"><i class="fa fa-cogs"> </i> A17 Pro</span>
+                            <span class="text-icon-2"><i class="fa fa-mobile"> </i> 6.7 inch</span>
+                            <br> <br>
+                            <span class="text-icon-3"><i class="fa fa-microchip"> </i>  8 GB</span>
+                            <span class="text-icon-4"><i class="fas fa-hdd"> </i>  1T GB</span>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="them-mua-all">
+                    <button id="themgiohang" class="them-mua">Thêm <i class="fas fa-shopping-cart"></i></button>
+                    <button id="muahang" class="them-mua">Mua ngay</button>
+                </div>
+            </div>
+            <div class="iphone15prm">
+                <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/42/305658/s16/iphone-15-pro-max-natural-titan-1-650x650.jpg" class="img-iphone15prm1T" alt="">
+                <p class="name">IPHONE 15 PRO MAX</p>
+                <br>
+                <p class="gia">45.990.000₫</p>
+                <br>
+                <br>
+                <div class="thongso">
+                    <div class="thongso">
+                        <div class="icon">
+                            <span class="text-icon-1"><i class="fa fa-cogs"> </i> A17 Pro</span>
+                            <span class="text-icon-2"><i class="fa fa-mobile"> </i> 6.7 inch</span>
+                            <br> <br>
+                            <span class="text-icon-3"><i class="fa fa-microchip"> </i>  8 GB</span>
+                            <span class="text-icon-4"><i class="fas fa-hdd"> </i>  512 GB</span>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="them-mua-all">
+                    <button id="themgiohang" class="them-mua">Thêm <i class="fas fa-shopping-cart"></i></button>
+                    <button id="muahang" class="them-mua">Mua ngay</button>
+                </div>
+            </div>
+            <div class="iphone15prm">
+                <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/42/305658/s16/iphone-15-pro-max-white-titan-1-650x650.jpg" class="img-iphone15prm1T" alt="">
+                <p class="name">IPHONE 15 PRO MAX</p>
+                <br>
+                <p class="gia">40.990.000₫</p>
+                <br>
+                <br>
+                <div class="thongso">
+                    <div class="thongso">
+                        <div class="icon">
+                            <span class="text-icon-1"><i class="fa fa-cogs"> </i> A17 Pro</span>
+                            <span class="text-icon-2"><i class="fa fa-mobile"> </i> 6.7 inch</span>
+                            <br> <br>
+                            <span class="text-icon-3"><i class="fa fa-microchip"> </i>  8 GB</span>
+                            <span class="text-icon-4"><i class="fas fa-hdd"> </i>  256 GB</span>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="them-mua-all">
+                    <button id="themgiohang" class="them-mua">Thêm <i class="fas fa-shopping-cart"></i></button>
+                    <button id="muahang" class="them-mua">Mua ngay</button>
+                </div>
+            </div>
+            <div class="iphone15prm">
+                <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/42/305658/s16/iphone-15-pro-max-black-titan-1-650x650.jpg" class="img-iphone15prm1T" alt="">
+                <p class="name">IPHONE 15 PRO MAX</p>
+                <br>
+                <p class="gia">35.990.000₫</p>
+                <br>
+                <br>
+                <div class="thongso">
+                    <div class="thongso">
+                        <div class="icon">
+                            <span class="text-icon-1"><i class="fa fa-cogs"> </i> A17 Pro</span>
+                            <span class="text-icon-2"><i class="fa fa-mobile"> </i> 6.7 inch</span>
+                            <br> <br>
+                            <span class="text-icon-3"><i class="fa fa-microchip"> </i>  8 GB</span>
+                            <span class="text-icon-4"><i class="fas fa-hdd"> </i>  128 GB</span>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="them-mua-all">
+                    <button id="themgiohang" class="them-mua">Thêm <i class="fas fa-shopping-cart"></i></button>
+                    <button id="muahang" class="them-mua">Mua ngay</button>
+                </div>
+            </div>
+            <div class="iphone15prm">
+                <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/42/305658/s16/iphone-15-pro-max-blue-titan-2-650x650.jpg" class="img-iphone15prm1T" alt="">
+                <p class="name">IPHONE 14 PRO MAX</p>
+                <br>
+                <p class="gia">42.990.000₫</p>
+                <br>
+                <br>
+                <div class="thongso">
+                    <div class="thongso">
+                        <div class="icon">
+                            <span class="text-icon-1"><i class="fa fa-cogs"> </i> A16 Bionic</span>
+                            <span class="text-icon-2"><i class="fa fa-mobile"> </i> 6.7 inch</span>
+                            <br> <br>
+                            <span class="text-icon-3"><i class="fa fa-microchip"> </i>  8 GB</span>
+                            <span class="text-icon-4"><i class="fas fa-hdd"> </i>  1T GB</span>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="them-mua-all">
+                    <button id="themgiohang" class="them-mua">Thêm <i class="fas fa-shopping-cart"></i></button>
+                    <button id="muahang" class="them-mua">Mua ngay</button>
+                </div>
+            </div>
+            <div class="iphone15prm">
+                <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/42/305658/s16/iphone-15-pro-max-natural-titan-1-650x650.jpg" class="img-iphone15prm1T" alt="">
+                <p class="name">IPHONE 14 PRO MAX</p>
+                <br>
+                <p class="gia">37.990.000₫</p>
+                <br>
+                <br>
+                <div class="thongso">
+                    <div class="thongso">
+                        <div class="icon">
+                            <span class="text-icon-1"><i class="fa fa-cogs"> </i> A16 Bionic</span>
+                            <span class="text-icon-2"><i class="fa fa-mobile"> </i> 6.7 inch</span>
+                            <br> <br>
+                            <span class="text-icon-3"><i class="fa fa-microchip"> </i>  8 GB</span>
+                            <span class="text-icon-4"><i class="fas fa-hdd"> </i>  512 GB</span>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="them-mua-all">
+                    <button id="themgiohang" class="them-mua">Thêm <i class="fas fa-shopping-cart"></i></button>
+                    <button id="muahang" class="them-mua">Mua ngay</button>
+                </div>
+            </div>
+            <div class="iphone15prm">
+                <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/42/305658/s16/iphone-15-pro-max-white-titan-1-650x650.jpg" class="img-iphone15prm1T" alt="">
+                <p class="name">IPHONE 14 PRO MAX</p>
+                <br>
+                <p class="gia">32.990.000₫</p>
+                <br>
+                <br>
+                <div class="thongso">
+                    <div class="thongso">
+                        <div class="icon">
+                            <span class="text-icon-1"><i class="fa fa-cogs"> </i> A16 Bionic</span>
+                            <span class="text-icon-2"><i class="fa fa-mobile"> </i> 6.7 inch</span>
+                            <br> <br>
+                            <span class="text-icon-3"><i class="fa fa-microchip"> </i>  8 GB</span>
+                            <span class="text-icon-4"><i class="fas fa-hdd"> </i>  256 GB</span>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="them-mua-all">
+                    <button id="themgiohang" class="them-mua">Thêm <i class="fas fa-shopping-cart"></i></button>
+                    <button id="muahang" class="them-mua">Mua ngay</button>
+                </div>
+            </div>
+            <div class="iphone15prm">
+                <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/42/305658/s16/iphone-15-pro-max-black-titan-1-650x650.jpg" class="img-iphone15prm1T" alt="">
+                <p class="name">IPHONE 14 PRO MAX</p>
+                <br>
+                <p class="gia">27.990.000₫</p>
+                <br>
+                <br>
+                <div class="thongso">
+                    <div class="thongso">
+                        <div class="icon">
+                            <span class="text-icon-1"><i class="fa fa-cogs"> </i> A16 Bionic</span>
+                            <span class="text-icon-2"><i class="fa fa-mobile"> </i> 6.7 inch</span>
+                            <br> <br>
+                            <span class="text-icon-3"><i class="fa fa-microchip"> </i>  8 GB</span>
+                            <span class="text-icon-4"><i class="fas fa-hdd"> </i>  128 GB</span>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="them-mua-all">
+                    <button id="themgiohang" class="them-mua">Thêm <i class="fas fa-shopping-cart"></i></button>
+                    <button id="muahang" class="them-mua">Mua ngay</button>
+                </div>
+            </div>
+            </div>
+
+
+
+
+            <div class="ch" id="iphone-pro">
+            <div class="iphone15prm">
+                <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/42/305659/s16/iphone-15-pro-max-white-titan-1-650x650.jpg" class="img-iphone15prm1T" alt="">
+                <p class="name">IPHONE 15 PRO</p>
+                <br>
+                <p class="gia">44.990.000₫</p>
+                <br>
+                <br>
+                <div class="thongso">
+                    <div class="thongso">
+                        <div class="icon">
+                            <span class="text-icon-1"><i class="fa fa-cogs"> </i> A17 Pro</span>
+                            <span class="text-icon-2"><i class="fa fa-mobile"> </i> 6.1 inch</span>
+                            <br> <br>
+                            <span class="text-icon-3"><i class="fa fa-microchip"> </i>  8 GB</span>
+                            <span class="text-icon-4"><i class="fas fa-hdd"> </i>  1T GB</span>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="them-mua-all">
+                    <button id="themgiohang" class="them-mua">Thêm <i class="fas fa-shopping-cart"></i></button>
+                    <button id="muahang" class="them-mua">Mua ngay</button>
+                </div>
+            </div>
+            <div class="iphone15prm">
+                <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/42/305659/s16/iphone-15-pro-max-natural-titan-1-650x650.jpg" class="img-iphone15prm1T" alt="">
+                <p class="name">IPHONE 15 PRO</p>
+                <br>
+                <p class="gia">39.990.000₫</p>
+                <br>
+                <br>
+                <div class="thongso">
+                    <div class="thongso">
+                        <div class="icon">
+                            <span class="text-icon-1"><i class="fa fa-cogs"> </i> A17 Pro</span>
+                            <span class="text-icon-2"><i class="fa fa-mobile"> </i> 6.1 inch</span>
+                            <br> <br>
+                            <span class="text-icon-3"><i class="fa fa-microchip"> </i>  8 GB</span>
+                            <span class="text-icon-4"><i class="fas fa-hdd"> </i>  512 GB</span>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="them-mua-all">
+                    <button id="themgiohang" class="them-mua">Thêm <i class="fas fa-shopping-cart"></i></button>
+                    <button id="muahang" class="them-mua">Mua ngay</button>
+                </div>
+            </div>
+            <div class="iphone15prm">
+                <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/42/305659/s16/iphone-15-pro-max-blue-titan-2-650x650.jpg" class="img-iphone15prm1T" alt="">
+                <p class="name">IPHONE 15 PRO</p>
+                <br>
+                <p class="gia">34.990.000₫</p>
+                <br>
+                <br>
+                <div class="thongso">
+                    <div class="thongso">
+                        <div class="icon">
+                            <span class="text-icon-1"><i class="fa fa-cogs"> </i> A17 Pro</span>
+                            <span class="text-icon-2"><i class="fa fa-mobile"> </i> 6.1 inch</span>
+                            <br> <br>
+                            <span class="text-icon-3"><i class="fa fa-microchip"> </i>  8 GB</span>
+                            <span class="text-icon-4"><i class="fas fa-hdd"> </i>  256 GB</span>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="them-mua-all">
+                    <button id="themgiohang" class="them-mua">Thêm <i class="fas fa-shopping-cart"></i></button>
+                    <button id="muahang" class="them-mua">Mua ngay</button>
+                </div>
+            </div>
+            <div class="iphone15prm">
+                <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/42/305659/s16/iphone-15-pro-max-black-titan-1-650x650.jpg" class="img-iphone15prm1T" alt="">
+                <p class="name">IPHONE 15 PRO</p>
+                <br>
+                <p class="gia">29.990.000₫</p>
+                <br>
+                <br>
+                <div class="thongso">
+                    <div class="thongso">
+                        <div class="icon">
+                            <span class="text-icon-1"><i class="fa fa-cogs"> </i> A17 Pro</span>
+                            <span class="text-icon-2"><i class="fa fa-mobile"> </i> 6.1 inch</span>
+                            <br> <br>
+                            <span class="text-icon-3"><i class="fa fa-microchip"> </i>  8 GB</span>
+                            <span class="text-icon-4"><i class="fas fa-hdd"> </i>  128 GB</span>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="them-mua-all">
+                    <button id="themgiohang" class="them-mua">Thêm <i class="fas fa-shopping-cart"></i></button>
+                    <button id="muahang" class="them-mua">Mua ngay</button>
+                </div>
+            </div>
+            <div class="iphone15prm">
+                <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/42/305658/s16/iphone-15-pro-max-natural-titan-1-650x650.jpg" class="img-iphone15prm1T" alt="">
+                <p class="name">IPHONE 14 PRO</p>
+                <br>
+                <p class="gia">37.990.000₫</p>
+                <br>
+                <br>
+                <div class="thongso">
+                    <div class="thongso">
+                        <div class="icon">
+                            <span class="text-icon-1"><i class="fa fa-cogs"> </i> A16 Bionic</span>
+                            <span class="text-icon-2"><i class="fa fa-mobile"> </i> 6.1 inch</span>
+                            <br> <br>
+                            <span class="text-icon-3"><i class="fa fa-microchip"> </i>  8 GB</span>
+                            <span class="text-icon-4"><i class="fas fa-hdd"> </i>  1T GB</span>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="them-mua-all">
+                    <button id="themgiohang" class="them-mua">Thêm <i class="fas fa-shopping-cart"></i></button>
+                    <button id="muahang" class="them-mua">Mua ngay</button>
+                </div>
+            </div>
+            <div class="iphone15prm">
+                <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/42/305658/s16/iphone-15-pro-max-blue-titan-2-650x650.jpg" class="img-iphone15prm1T" alt="">
+                <p class="name">IPHONE 14 PRO</p>
+                <br>
+                <p class="gia">32.990.000₫</p>
+                <br>
+                <br>
+                <div class="thongso">
+                    <div class="thongso">
+                        <div class="icon">
+                            <span class="text-icon-1"><i class="fa fa-cogs"> </i> A16 Bionic</span>
+                            <span class="text-icon-2"><i class="fa fa-mobile"> </i> 6.1 inch</span>
+                            <br> <br>
+                            <span class="text-icon-3"><i class="fa fa-microchip"> </i>  8 GB</span>
+                            <span class="text-icon-4"><i class="fas fa-hdd"> </i>  512 GB</span>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="them-mua-all">
+                    <button id="themgiohang" class="them-mua">Thêm <i class="fas fa-shopping-cart"></i></button>
+                    <button id="muahang" class="them-mua">Mua ngay</button>
+                </div>
+            </div>
+            <div class="iphone15prm">
+                <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/42/305658/s16/iphone-15-pro-max-black-titan-1-650x650.jpg" class="img-iphone15prm1T" alt="">
+                <p class="name">IPHONE 14 PRO</p>
+                <br>
+                <p class="gia">27.990.000₫</p>
+                <br>
+                <br>
+                <div class="thongso">
+                    <div class="thongso">
+                        <div class="icon">
+                            <span class="text-icon-1"><i class="fa fa-cogs"> </i> A16 Bionic</span>
+                            <span class="text-icon-2"><i class="fa fa-mobile"> </i> 6.1 inch</span>
+                            <br> <br>
+                            <span class="text-icon-3"><i class="fa fa-microchip"> </i>  8 GB</span>
+                            <span class="text-icon-4"><i class="fas fa-hdd"> </i>  256 GB</span>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="them-mua-all">
+                    <button id="themgiohang" class="them-mua">Thêm <i class="fas fa-shopping-cart"></i></button>
+                    <button id="muahang" class="them-mua">Mua ngay</button>
+                </div>
+            </div>
+            <div class="iphone15prm">
+                <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/42/305658/s16/iphone-15-pro-max-white-titan-1-650x650.jpg" class="img-iphone15prm1T" alt="">
+                <p class="name">IPHONE 14 PRO</p>
+                <br>
+                <p class="gia">22.990.000₫</p>
+                <br>
+                <br>
+                <div class="thongso">
+                    <div class="thongso">
+                        <div class="icon">
+                            <span class="text-icon-1"><i class="fa fa-cogs"> </i> A16 Bionic</span>
+                            <span class="text-icon-2"><i class="fa fa-mobile"> </i> 6.1 inch</span>
+                            <br> <br>
+                            <span class="text-icon-3"><i class="fa fa-microchip"> </i>  8 GB</span>
+                            <span class="text-icon-4"><i class="fas fa-hdd"> </i>  128 GB</span>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="them-mua-all">
+                    <button id="themgiohang" class="them-mua">Thêm <i class="fas fa-shopping-cart"></i></button>
+                    <button id="muahang" class="them-mua">Mua ngay</button>
+                </div>
+            </div>
+            </div>
+
+
+
+
+
+            <div class="ch" id="iphone-thuong">
+            <div class="iphone15prm">
+                <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/42/281570/s16/iphone-15-pink-1-650x650.jpg" class="img-iphone15prm1T" alt="">
+                <p class="name">IPHONE 15</p>
+                <br>
+                <p class="gia">38.990.000₫</p>
+                <br>
+                <br>
+                <div class="thongso">
+                    <div class="thongso">
+                        <div class="icon">
+                            <span class="text-icon-1"><i class="fa fa-cogs"> </i> A16 Bionic</span>
+                            <span class="text-icon-2"><i class="fa fa-mobile"> </i> 6.1 inch</span>
+                            <br> <br>
+                            <span class="text-icon-3"><i class="fa fa-microchip"> </i>  6 GB</span>
+                            <span class="text-icon-4"><i class="fas fa-hdd"> </i>  1T GB</span>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="them-mua-all">
+                    <button id="themgiohang" class="them-mua">Thêm <i class="fas fa-shopping-cart"></i></button>
+                    <button id="muahang" class="them-mua">Mua ngay</button>
+                </div>
+            </div>
+            <div class="iphone15prm">
+                <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/42/281570/s16/iphone-15-yellow-1-650x650.jpg" class="img-iphone15prm1T" alt="">
+                <p class="name">IPHONE 15</p>
+                <br>
+                <p class="gia">33.990.000₫</p>
+                <br>
+                <br>
+                <div class="thongso">
+                    <div class="thongso">
+                        <div class="icon">
+                            <span class="text-icon-1"><i class="fa fa-cogs"> </i> A16 Bionic</span>
+                            <span class="text-icon-2"><i class="fa fa-mobile"> </i> 6.1 inch</span>
+                            <br> <br>
+                            <span class="text-icon-3"><i class="fa fa-microchip"> </i>  6 GB</span>
+                            <span class="text-icon-4"><i class="fas fa-hdd"> </i>  512 GB</span>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="them-mua-all">
+                    <button id="themgiohang" class="them-mua">Thêm <i class="fas fa-shopping-cart"></i></button>
+                    <button id="muahang" class="them-mua">Mua ngay</button>
+                </div>
+            </div>
+            <div class="iphone15prm">
+                <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/42/281570/s16/iphone-15-blue-2-650x650.jpg" class="img-iphone15prm1T" alt="">
+                <p class="name">IPHONE 15</p>
+                <br>
+                <p class="gia">28.990.000₫</p>
+                <br>
+                <br>
+                <div class="thongso">
+                    <div class="thongso">
+                        <div class="icon">
+                            <span class="text-icon-1"><i class="fa fa-cogs"> </i> A16 Bionic</span>
+                            <span class="text-icon-2"><i class="fa fa-mobile"> </i> 6.1 inch</span>
+                            <br> <br>
+                            <span class="text-icon-3"><i class="fa fa-microchip"> </i>  6 GB</span>
+                            <span class="text-icon-4"><i class="fas fa-hdd"> </i>  256 GB</span>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="them-mua-all">
+                    <button id="themgiohang" class="them-mua">Thêm <i class="fas fa-shopping-cart"></i></button>
+                    <button id="muahang" class="them-mua">Mua ngay</button>
+                </div>
+            </div>
+            <div class="iphone15prm">
+                <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/42/281570/s16/iphone-15-black-thumbtz_0-650x650.png" class="img-iphone15prm1T" alt="">
+                <p class="name">IPHONE 15</p>
+                <br>
+                <p class="gia">23.990.000₫</p>
+                <br>
+                <br>
+                <div class="thongso">
+                    <div class="thongso">
+                        <div class="icon">
+                            <span class="text-icon-1"><i class="fa fa-cogs"> </i> A16 Bionic</span>
+                            <span class="text-icon-2"><i class="fa fa-mobile"> </i> 6.1 inch</span>
+                            <br> <br>
+                            <span class="text-icon-3"><i class="fa fa-microchip"> </i>  6 GB</span>
+                            <span class="text-icon-4"><i class="fas fa-hdd"> </i>  128 GB</span>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="them-mua-all">
+                    <button id="themgiohang" class="them-mua">Thêm <i class="fas fa-shopping-cart"></i></button>
+                    <button id="muahang" class="them-mua">Mua ngay</button>
+                </div>
+            </div>
+            <div class="iphone15prm">
+                <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/42/240259/s16/iphone_14_pdp_position-1_starlight_color-0-650x650.jpg" class="img-iphone15prm1T" alt="">
+                <p class="name">IPHONE 14</p>
+                <br>
+                <p class="gia">29.990.000₫</p>
+                <br>
+                <br>
+                <div class="thongso">
+                    <div class="thongso">
+                        <div class="icon">
+                            <span class="text-icon-1"><i class="fa fa-cogs"> </i> A15 Bionic</span>
+                            <span class="text-icon-2"><i class="fa fa-mobile"> </i> 6.1 inch</span>
+                            <br> <br>
+                            <span class="text-icon-3"><i class="fa fa-microchip"> </i>  6 GB</span>
+                            <span class="text-icon-4"><i class="fas fa-hdd"> </i>  1T GB</span>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="them-mua-all">
+                    <button id="themgiohang" class="them-mua">Thêm <i class="fas fa-shopping-cart"></i></button>
+                    <button id="muahang" class="them-mua">Mua ngay</button>
+                </div>
+            </div>
+            <div class="iphone15prm">
+                <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/42/240259/s16/iphone_14_pdp_position-1_productred_color-0-650x650.jpg" class="img-iphone15prm1T" alt="">
+                <p class="name">IPHONE 14</p>
+                <br>
+                <p class="gia">24.990.000₫</p>
+                <br>
+                <br>
+                <div class="thongso">
+                    <div class="thongso">
+                        <div class="icon">
+                            <span class="text-icon-1"><i class="fa fa-cogs"> </i> A15 Bionic</span>
+                            <span class="text-icon-2"><i class="fa fa-mobile"> </i> 6.1 inch</span>
+                            <br> <br>
+                            <span class="text-icon-3"><i class="fa fa-microchip"> </i>  6 GB</span>
+                            <span class="text-icon-4"><i class="fas fa-hdd"> </i>  512 GB</span>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="them-mua-all">
+                    <button id="themgiohang" class="them-mua">Thêm <i class="fas fa-shopping-cart"></i></button>
+                    <button id="muahang" class="them-mua">Mua ngay</button>
+                </div>
+            </div>
+            <div class="iphone15prm">
+                <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/42/240259/s16/iphone_14_pdp_position-1a_blue_color-0-650x650.jpg" class="img-iphone15prm1T" alt="">
+                <p class="name">IPHONE 14</p>
+                <br>
+                <p class="gia">21.990.000₫</p>
+                <br>
+                <br>
+                <div class="thongso">
+                    <div class="thongso">
+                        <div class="icon">
+                            <span class="text-icon-1"><i class="fa fa-cogs"> </i> A15 Bionic</span>
+                            <span class="text-icon-2"><i class="fa fa-mobile"> </i> 6.1 inch</span>
+                            <br> <br>
+                            <span class="text-icon-3"><i class="fa fa-microchip"> </i>  6 GB</span>
+                            <span class="text-icon-4"><i class="fas fa-hdd"> </i>  256 GB</span>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="them-mua-all">
+                    <button id="themgiohang" class="them-mua">Thêm <i class="fas fa-shopping-cart"></i></button>
+                    <button id="muahang" class="them-mua">Mua ngay</button>
+                </div>
+            </div>
+            <div class="iphone15prm">
+                <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/42/240259/s16/iphone_14_pdp_position-1a_midnight_color-0-650x650.jpg" class="img-iphone15prm1T" alt="">
+                <p class="name">IPHONE 14</p>
+                <br>
+                <p class="gia">17.990.000₫</p>
+                <br>
+                <br>
+                <div class="thongso">
+                    <div class="thongso">
+                        <div class="icon">
+                            <span class="text-icon-1"><i class="fa fa-cogs"> </i> A15 Bionic</span>
+                            <span class="text-icon-2"><i class="fa fa-mobile"> </i> 6.1 inch</span>
+                            <br> <br>
+                            <span class="text-icon-3"><i class="fa fa-microchip"> </i>  6 GB</span>
+                            <span class="text-icon-4"><i class="fas fa-hdd"> </i>  128 GB</span>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="them-mua-all">
+                    <button id="themgiohang" class="them-mua">Thêm <i class="fas fa-shopping-cart"></i></button>
+                    <button id="muahang" class="them-mua">Mua ngay</button>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div id="mac-all">
+        <h2 class="mac"><i class="fab fa-apple"></i> MacBook</h2>
+        <br>
+        <video loop autoplay src="/video/xlarge_2x.mp4" type="video/mp4" class="video-mac"></video>
+        <br>
+        <br>
+        <div class="ch-mac">
+            <div class="btn-heading-all">
+                <button id="heading-mac-pro" class="btn-iphone">
+                    <i class="fas fa-bars"></i>
+                    MacBook Pro
+                </button>
+                <button id="heading-mac-air" class="btn-iphone">
+                    <i class="fas fa-bars"></i>
+                    MacBook Air
+                </button>
+            </div>
+            <br>
+            <div class="ch" id="mac-pro-all">
+                <div class="mac-pro">
+                    <img src="https://cdn.tgdd.vn/Products/Images/44/318236/apple-macbook-pro-16-inch-m3-max-2023-14-core-311023-034030-600x600.jpg" class="img-mac" alt="">
+                    <div class="name">MacBook Pro 16 inch M3 Max 2023 14-Core CPU</div>
+                    <p class="gia">89.990.000₫</p>
+                    <div class="thongso-mac-all">
+                        <p class="thongso-mac">RAM : 36 GB</p >
+                        <p class="thongso-mac">SSD : 1 TB</p >
+                        <p class="thongso-mac">Màn hình: 16.2", 4K, 120Hz</p >
+                        <p class="thongso-mac">Card: 30 nhân GPU</p >
+                        <p class="thongso-mac">Pin: Lên đến 22 giờ</p >
+                        <p class="thongso-mac">Khối lượng: 2.16 kg</p >
+                    </div>
+                    <div class="them-mua-all">
+                        <button id="themgiohang" class="them-mua">Thêm <i class="fas fa-shopping-cart"></i></button>
+                        <button id="muahang" class="them-mua">Mua ngay</button>
+                    </div>
+                </div>
+                <div class="mac-pro">
+                    <img src="https://cdn.tgdd.vn/Products/Images/44/318232/apple-macbook-pro-14-inch-m3-pro-2023-silver-1.jpg" class="img-mac" alt="">
+                    <div class="name">MacBook Pro 14 inch M3 Max 2023 14-Core CPU</div>
+                    <p class="gia">79.990.000₫</p>
+                    <div class="thongso-mac-all">
+                        <p class="thongso-mac">RAM : 36 GB</p >
+                        <p class="thongso-mac">SSD : 1 TB</p >
+                        <p class="thongso-mac">Màn hình: 14.2", 4K, 120Hz</p >
+                        <p class="thongso-mac">Card: 30 nhân GPU</p >
+                        <p class="thongso-mac">Pin: Lên đến 18 giờ</p >
+                        <p class="thongso-mac">Khối lượng: 1.61 kg</p >
+                    </div>
+                    <div class="them-mua-all">
+                        <button id="themgiohang" class="them-mua">Thêm <i class="fas fa-shopping-cart"></i></button>
+                        <button id="muahang" class="them-mua">Mua ngay</button>
+                    </div>
+                </div>
+                <div class="mac-pro">
+                    <img src="https://cdn.tgdd.vn/Products/Images/44/282828/apple-macbook-pro-13-inch-m2-2022-xam-600x600.jpg" class="img-mac" alt="">
+                    <div class="name">MacBook Pro 13 inch M2 2022 10-Core CPU</div>
+                    <p class="gia">29.990.000₫</p>
+                    <div class="thongso-mac-all">
+                        <p class="thongso-mac">RAM : 8 GB</p >
+                        <p class="thongso-mac">SSD : 256 GB</p >
+                        <p class="thongso-mac">Màn hình: 13.3", Retina</p >
+                        <p class="thongso-mac">Card: 10 nhân GPU</p >
+                        <p class="thongso-mac">Pin: Lên đến 20 giờ</p >
+                        <p class="thongso-mac">Khối lượng: 1.4 kg</p >
+                    </div>
+                    <div class="them-mua-all">
+                        <button id="themgiohang" class="them-mua">Thêm <i class="fas fa-shopping-cart"></i></button>
+                        <button id="muahang" class="them-mua">Mua ngay</button>
+                    </div>
+                </div>
+                <div class="mac-pro">
+                    <img src="https://cdn.tgdd.vn/Products/Images/44/318235/apple-macbook-pro-16-inch-m3-pro-2023-12-core-36gb-311023-033856-600x600.jpg" class="img-mac" alt="">
+                    <div class="name">MacBook Pro 16 inch M3 Pro 2023 12-Core</div>
+                    <p class="gia">74.990.000₫</p>
+                    <div class="thongso-mac-all">
+                        <p class="thongso-mac">RAM : 36 GB</p >
+                        <p class="thongso-mac">SSD : 512 GB</p >
+                        <p class="thongso-mac">Màn hình: 16.2", 4K, 120Hz</p >
+                        <p class="thongso-mac">Card: 18 nhân GPU</p >
+                        <p class="thongso-mac">Pin: Lên đến 22 giờ</p >
+                        <p class="thongso-mac">Khối lượng: 2.14 kg</p >
+                    </div>
+                    <div class="them-mua-all">
+                        <button id="themgiohang" class="them-mua">Thêm <i class="fas fa-shopping-cart"></i></button>
+                        <button id="muahang" class="them-mua">Mua ngay</button>
+                    </div>
+                </div>
+                <div class="mac-pro">
+                    <img src="https://cdn.tgdd.vn/Products/Images/44/318235/apple-macbook-pro-16-inch-m3-pro-2023-12-core-36gb-311023-033856-600x600.jpg" class="img-mac" alt="">
+                    <div class="name">MacBook Pro 16 inch M3 Pro 2023 12-Core</div>
+                    <p class="gia">64.990.000₫</p>
+                    <div class="thongso-mac-all">
+                        <p class="thongso-mac">RAM : 18 GB</p >
+                        <p class="thongso-mac">SSD : 512 GB</p >
+                        <p class="thongso-mac">Màn hình: 16.2", 4K, 120Hz</p >
+                        <p class="thongso-mac">Card: 18 nhân GPU</p >
+                        <p class="thongso-mac">Pin: Lên đến 22 giờ</p >
+                        <p class="thongso-mac">Khối lượng: 2.14 kg</p >
+                    </div>
+                    <div class="them-mua-all">
+                        <button id="themgiohang" class="them-mua">Thêm <i class="fas fa-shopping-cart"></i></button>
+                        <button id="muahang" class="them-mua">Mua ngay</button>
+                    </div>
+                </div>
+                <div class="mac-pro">
+                    <img src="https://cdn.tgdd.vn/Products/Images/44/318235/apple-macbook-pro-16-inch-m3-pro-2023-12-core-36gb-311023-033856-600x600.jpg" class="img-mac" alt="">
+                    <div class="name">MacBook Pro 14 inch M3 Pro 2023 12-Core</div>
+                    <p class="gia">49.990.000₫</p>
+                    <div class="thongso-mac-all">
+                        <p class="thongso-mac">RAM : 18 GB</p >
+                        <p class="thongso-mac">SSD : 512 GB</p >
+                        <p class="thongso-mac">Màn hình: 14.2", 4K, 120Hz</p >
+                        <p class="thongso-mac">Card: 14 nhân GPU</p >
+                        <p class="thongso-mac">Pin: Lên đến 18 giờ</p >
+                        <p class="thongso-mac">Khối lượng: 1.61 kg</p >
+                    </div>
+                    <div class="them-mua-all">
+                        <button id="themgiohang" class="them-mua">Thêm <i class="fas fa-shopping-cart"></i></button>
+                        <button id="muahang" class="them-mua">Mua ngay</button>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="ch" id="mac-air-all">
+                <div class="mac-pro">
+                    <img src="https://cdn.tgdd.vn/Products/Images/44/231244/macbook-air-m1-2020-gray-600x600.jpg" class="img-mac" alt="">
+                    <div class="name">MacBook Air 13 inch M1 2020 7-core GPU</div>
+                    <p class="gia">19.990.000₫</p>
+                    <div class="thongso-mac-all">
+                        <p class="thongso-mac">RAM : 8 GB</p >
+                        <p class="thongso-mac">SSD : 256 GB</p >
+                        <p class="thongso-mac">Màn hình: 13.3", Retina</p >
+                        <p class="thongso-mac">Card: 7 nhân GPU</p >
+                        <p class="thongso-mac">Pin: Lên đến 18 giờ</p >
+                        <p class="thongso-mac">Khối lượng: 1.29 kg</p >
+                    </div>
+                    <div class="them-mua-all">
+                        <button id="themgiohang" class="them-mua">Thêm <i class="fas fa-shopping-cart"></i></button>
+                        <button id="muahang" class="them-mua">Mua ngay</button>
+                    </div>
+                </div>
+                <div class="mac-pro">
+                    <img src="https://cdn.tgdd.vn/Products/Images/44/282827/apple-macbook-air-m2-2022-bac-600x600.jpg" class="img-mac" alt="">
+                    <div class="name">MacBook Air 13 inch M2 2022 8-core GPU</div>
+                    <p class="gia">26.990.000₫</p>
+                    <div class="thongso-mac-all">
+                        <p class="thongso-mac">RAM : 8 GB</p >
+                        <p class="thongso-mac">SSD : 256 GB</p >
+                        <p class="thongso-mac">Màn hình: 13.6", Retina</p >
+                        <p class="thongso-mac">Card: 8 nhân GPU</p >
+                        <p class="thongso-mac">Pin: Lên đến 18 giờ</p >
+                        <p class="thongso-mac">Khối lượng: 1.24 kg</p >
+                    </div>
+                    <div class="them-mua-all">
+                        <button id="themgiohang" class="them-mua">Thêm <i class="fas fa-shopping-cart"></i></button>
+                        <button id="muahang" class="them-mua">Mua ngay</button>
+                    </div>
+                </div>
+                <div class="mac-pro">
+                    <img src="https://cdn.tgdd.vn/Products/Images/44/282828/apple-macbook-pro-13-inch-m2-2022-xam-600x600.jpg" class="img-mac" alt="">
+                    <div class="name">MacBook Pro 13 inch M2 2022 10-Core CPU</div>
+                    <p class="gia">29.990.000₫</p>
+                    <div class="thongso-mac-all">
+                        <p class="thongso-mac">RAM : 8 GB</p >
+                        <p class="thongso-mac">SSD : 256 GB</p >
+                        <p class="thongso-mac">Màn hình: 13.3", Retina</p >
+                        <p class="thongso-mac">Card: 10 nhân GPU</p >
+                        <p class="thongso-mac">Pin: Lên đến 20 giờ</p >
+                        <p class="thongso-mac">Khối lượng: 1.4 kg</p >
+                    </div>
+                    <div class="them-mua-all">
+                        <button id="themgiohang" class="them-mua">Thêm <i class="fas fa-shopping-cart"></i></button>
+                        <button id="muahang" class="them-mua">Mua ngay</button>
+                    </div>
+                </div>
+                <div class="mac-pro">
+                    <img src="https://cdn.tgdd.vn/Products/Images/44/282828/apple-macbook-pro-13-inch-m2-2022-xam-600x600.jpg" class="img-mac" alt="">
+                    <div class="name">MacBook Pro 13 inch M2 2022 10-core GPU</div>
+                    <p class="gia">28.990.000₫</p>
+                    <div class="thongso-mac-all">
+                        <p class="thongso-mac">RAM : 8 GB</p >
+                        <p class="thongso-mac">SSD : 256 GB</p >
+                        <p class="thongso-mac">Màn hình: 13.3", Retina</p >
+                        <p class="thongso-mac">Card: 10 nhân GPU</p >
+                        <p class="thongso-mac">Pin: Lên đến 20 giờ</p >
+                        <p class="thongso-mac">Khối lượng: 1.4 kg</p >
+                    </div>
+                    <div class="them-mua-all">
+                        <button id="themgiohang" class="them-mua">Thêm <i class="fas fa-shopping-cart"></i></button>
+                        <button id="muahang" class="them-mua">Mua ngay</button>
+                    </div>
+                </div>
+                <div class="mac-pro">
+                    <img src="https://cdn.tgdd.vn/Products/Images/44/309016/apple-macbook-air-15-inch-m2-2023-midnight-thumb-600x600.jpg" class="img-mac" alt="">
+                    <div class="name">MacBook Air 15 inch M2 2023 10-core GPU</div>
+                    <p class="gia">31.990.000₫</p>
+                    <div class="thongso-mac-all">
+                        <p class="thongso-mac">RAM : 8 GB</p >
+                        <p class="thongso-mac">SSD : 256 GB</p >
+                        <p class="thongso-mac">Màn hình: 15.3", Retina</p >
+                        <p class="thongso-mac">Card: 10 nhân GPU</p >
+                        <p class="thongso-mac">Pin: Lên đến 18 giờ</p >
+                        <p class="thongso-mac">Khối lượng: 1.51 kg</p >
+                    </div>
+                    <div class="them-mua-all">
+                        <button id="themgiohang" class="them-mua">Thêm <i class="fas fa-shopping-cart"></i></button>
+                        <button id="muahang" class="them-mua">Mua ngay</button>
+                    </div>
+                </div>
+                <div class="mac-pro">
+                    <img src="https://cdn.tgdd.vn/Products/Images/44/309018/apple-macbook-air-m2-2023-starlight-thumb-600x600.jpg" class="img-mac" alt="">
+                    <div class="name">MacBook Air 15 inch M2 2023 10-core GPU</div>
+                    <p class="gia">36.990.000₫</p>
+                    <div class="thongso-mac-all">
+                        <p class="thongso-mac">RAM : 16 GB</p >
+                        <p class="thongso-mac">SSD : 256 GB</p >
+                        <p class="thongso-mac">Màn hình: 15.3", Retina</p >
+                        <p class="thongso-mac">Card: 10 nhân GPU</p >
+                        <p class="thongso-mac">Pin: Lên đến 18 giờ</p >
+                        <p class="thongso-mac">Khối lượng: 1.51 kg</p >
+                    </div>
+                    <div class="them-mua-all">
+                        <button id="themgiohang" class="them-mua">Thêm <i class="fas fa-shopping-cart"></i></button>
+                        <button id="muahang" class="them-mua">Mua ngay</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    
+    <div id="watch-all">
+        <h2 class="watch"><i class="fab fa-apple"></i> Apple Watch</h2>
+        <br>
+        <div class="ch-watch">
+            <img src="https://cdn.tgdd.vn/Files/2021/06/14/1360210/applewatch7800x450_800x450.jpg" class="img-heading-watch" alt="">
+            <br><br>
+            <div class="btn-heading-all">
+                <button id="watch-SE-heading" class="btn-iphone">
+                    <i class="fas fa-bars"></i>
+                    Apple Watch SE
+                </button>
+                <button id="watch-series-heading" class="btn-iphone">
+                    <i class="fas fa-bars"></i>
+                    Apple Watch Series
+                </button>
+                <button id="watch-ultra-heading" class="btn-iphone">
+                    <i class="fas fa-bars"></i>
+                    Apple Watch Ultra
+                </button>
+            </div>
+            <br>
+            
+            <div class="ch" id="watch-SE">
+                <div class="apple-watch-all">
+                    <img src="https://cdn.tgdd.vn/Products/Images/7077/316008/apple-watch-se-2023-40mm-vien-nhom-day-vai-xanh-thumb-1-600x600.jpg" class="img-mac" alt="">
+                    <div class="name">Apple Watch SE 2023 GPS 40mm viền nhôm dây vải</div>
+                    <p class="gia">6.390.000₫</p>
+                    <br> <br>
+                    <div class="them-mua-all">
+                        <button id="themgiohang" class="them-mua">Thêm <i class="fas fa-shopping-cart"></i></button>
+                        <button id="muahang" class="them-mua">Mua ngay</button>
+                    </div>
+                </div>
+                <div class="apple-watch-all">
+                    <img src="https://cdn.tgdd.vn/Products/Images/7077/316011/apple-watch-se-lte-2023-44mm-vien-nhom-day-vai-xanh-den-thumb-1-600x600.jpg" class="img-mac" alt="">
+                    <div class="name">Apple Watch SE 2023 GPS viền nhôm dây vải</div>
+                    <p class="gia">8.490.000₫</p>
+                    <br> <br>
+                    <div class="them-mua-all">
+                        <button id="themgiohang" class="them-mua">Thêm <i class="fas fa-shopping-cart"></i></button>
+                        <button id="muahang" class="them-mua">Mua ngay</button>
+                    </div>
+                </div>
+                <div class="apple-watch-all">
+                    <img src="https://cdn.tgdd.vn/Products/Images/7077/316008/apple-watch-se-2023-40mm-vien-nhom-day-vai-xanh-thumb-1-600x600.jpg" class="img-mac" alt="">
+                    <div class="name">Apple Watch SE 2023 GPS 40mm viền nhôm dây vải</div>
+                    <p class="gia">7.690.000₫</p>
+                    <br> <br>
+                    <div class="them-mua-all">
+                        <button id="themgiohang" class="them-mua">Thêm <i class="fas fa-shopping-cart"></i></button>
+                        <button id="muahang" class="them-mua">Mua ngay</button>
+                    </div>
+                </div>
+                <div class="apple-watch-all">
+                    <img src="https://cdn.tgdd.vn/Products/Images/7077/316009/apple-watch-se-lte-2023-44mm-vien-nhom-day-silicone-xanh-duong-thumb-1-600x600.jpg" class="img-mac" alt="">
+                    <div class="name">Apple Watch SE 2023 GPS + Cellular 44mm viền nhôm</div>
+                    <p class="gia">8.490.000₫</p>
+                    <br> <br>
+                    <div class="them-mua-all">
+                        <button id="themgiohang" class="them-mua">Thêm <i class="fas fa-shopping-cart"></i></button>
+                        <button id="muahang" class="them-mua">Mua ngay</button>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+            <div class="ch" id="watch-series">
+                <div class="apple-watch-all">
+                    <img src="https://cdn.tgdd.vn/Products/Images/7077/316001/apple-watch-s9-45mm-vien-nhom-day-vai-xanh-den-thumb-1-600x600.jpg" class="img-mac" alt="">
+                    <div class="name">Apple Watch Series 9 GPS 45mm viền nhôm dây vải</div>
+                    <p class="gia">11.290.000₫</p>
+                    <br> <br>
+                    <div class="them-mua-all">
+                        <button id="themgiohang" class="them-mua">Thêm <i class="fas fa-shopping-cart"></i></button>
+                        <button id="muahang" class="them-mua">Mua ngay</button>
+                    </div>
+                </div>
+                <div class="apple-watch-all">
+                    <img src="https://cdn.tgdd.vn/Products/Images/7077/315998/apple-watch-s9-41mm-vien-nhom-day-vai-hong-thumb-1-600x600.jpg" class="img-mac" alt="">
+                    <div class="name">Apple Watch Series 9 GPS 41mm viền nhôm dây vải</div>
+                    <p class="gia">10.490.000₫</p>
+                    <br> <br>
+                    <div class="them-mua-all">
+                        <button id="themgiohang" class="them-mua">Thêm <i class="fas fa-shopping-cart"></i></button>
+                        <button id="muahang" class="them-mua">Mua ngay</button>
+                    </div>
+                </div>
+                <div class="apple-watch-all">
+                    <img src="https://cdn.tgdd.vn/Products/Images/7077/316002/apple-watch-s9-45mm-vien-nhom-day-silicone-day-ngan-do-thumb-1-600x600.jpg" class="img-mac" alt="">
+                    <div class="name">Apple Watch Series 9 GPS 45mm viền nhôm</div>
+                    <p class="gia">11.290.000₫</p>
+                    <br> <br>
+                    <div class="them-mua-all">
+                        <button id="themgiohang" class="them-mua">Thêm <i class="fas fa-shopping-cart"></i></button>
+                        <button id="muahang" class="them-mua">Mua ngay</button>
+                    </div>
+                </div>
+                <div class="apple-watch-all">
+                    <img src="https://cdn.tgdd.vn/Products/Images/7077/314691/apple-watch-s9-lte-45mm-vien-nhom-day-silicone-trang-thumb-1-600x600.png" class="img-mac" alt="">
+                    <div class="name">Apple Watch Series 9 GPS + Cellular 45mm viền nhôm</div>
+                    <p class="gia">13.890.000₫</p>
+                    <br> <br>
+                    <div class="them-mua-all">
+                        <button id="themgiohang" class="them-mua">Thêm <i class="fas fa-shopping-cart"></i></button>
+                        <button id="muahang" class="them-mua">Mua ngay</button>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            
+            <div class="ch" id="watch-ultra">
+                <div class="apple-watch-all">
+                    <img src="https://cdn.tgdd.vn/Products/Images/7077/289814/apple-watch-ultra-alpine-m-cam-thumbnew-1-600x600.jpg" class="img-mac" alt="">
+                    <div class="name">Apple Watch Ultra GPS + Cellular 49mm viền Titanium</div>
+                    <p class="gia">19.990.000₫</p>
+                    <br> <br>
+                    <div class="them-mua-all">
+                        <button id="themgiohang" class="them-mua">Thêm <i class="fas fa-shopping-cart"></i></button>
+                        <button id="muahang" class="them-mua">Mua ngay</button>
+                    </div>
+                </div>
+                <div class="apple-watch-all">
+                    <img src="https://cdn.tgdd.vn/Products/Images/7077/314714/apple-watch-ultra-lte-49mm-vien-titanium-day-trail-den-thumb-1-600x600.jpg" class="img-mac" alt="">
+                    <div class="name">Apple Watch Ultra 2 GPS + Cellular 49mm viền Titanium</div>
+                    <p class="gia">21.990.000₫</p>
+                    <br> <br>
+                    <div class="them-mua-all">
+                        <button id="themgiohang" class="them-mua">Thêm <i class="fas fa-shopping-cart"></i></button>
+                        <button id="muahang" class="them-mua">Mua ngay</button>
+                    </div>
+                </div>
+                <div class="apple-watch-all">
+                    <img src="https://cdn.tgdd.vn/Products/Images/7077/314711/apple-watch-ultra-lte-49mm-vien-titanium-day-alpine-size-m-xanh-oliu-thumb-3-600x600.jpg" class="img-mac" alt="">
+                    <div class="name">Apple Watch Ultra 2 GPS + Cellular 49mm viền Titanium</div>
+                    <p class="gia">21.990.000₫</p>
+                    <br> <br>
+                    <div class="them-mua-all">
+                        <button id="themgiohang" class="them-mua">Thêm <i class="fas fa-shopping-cart"></i></button>
+                        <button id="muahang" class="them-mua">Mua ngay</button>
+                    </div>
+                </div>
+                <div class="apple-watch-all">
+                    <img src="https://cdn.tgdd.vn/Products/Images/7077/314937/apple-watch-ultra-lte-49mm-vien-titanium-day-alpine-size-l-nau-thumb-3-600x600.jpg" class="img-mac" alt="">
+                    <div class="name">Apple Watch Ultra 2 GPS + Cellular 49mm viền Titanium</div>
+                    <p class="gia">21.990.000₫</p>
+                    <br> <br>
+                    <div class="them-mua-all">
+                        <button id="themgiohang" class="them-mua">Thêm <i class="fas fa-shopping-cart"></i></button>
+                        <button id="muahang" class="them-mua">Mua ngay</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="ipad-all">
+        <h2 class="ipad"><i class="fab fa-apple"></i> Ipad</h2>
+        <br>
+        <div class="ch-ipad">
+            <img src="https://www.apple.com/vn/ipad-pro/images/overview/hero/hero_combo__fcqcc3hbzjyy_large.jpg" class="img-heading-ipad" alt="">
+            <br> <br>
+            <div class="btn-heading-all">
+                <button id="heading-ipad-pro" class="btn-iphone">
+                    <i class="fas fa-bars"></i>
+                    Ipad Pro
+                </button>
+                <button id="heading-ipad-air" class="btn-iphone">
+                    <i class="fas fa-bars"></i>
+                    Ipad Air
+                </button>
+                <button id="heading-ipad-mini" class="btn-iphone">
+                    <i class="fas fa-bars"></i>
+                    Ipad Mini
+                </button>
+                <button id="heading-ipad-wifi" class="btn-iphone">
+                    <i class="fas fa-bars"></i>
+                    Ipad Wifi
+                </button>
+            </div>
+
+
+
+
+
+
+            <div class="ch" id="ipad-pro-all">
+                <div class="ipad-pro">
+                    <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:80/plain/https://cellphones.com.vn/media/catalog/product/i/p/ipad-pro-13-select-wifi-spacegray-202210-02.jpg" class="img-mac" alt="">
+                    <div class="name">iPad Pro 11 inch 2022 M2 Wifi 128GB I Chính hãng Apple Việt Nam</div>
+                    <br>
+                    <p class="gia">19.890.000₫</p>
+                    <br><br>
+                    <div class="them-mua-all">
+                        <button id="themgiohang" class="them-mua">Thêm <i class="fas fa-shopping-cart"></i></button>
+                        <button id="muahang" class="them-mua">Mua ngay</button>
+                    </div>
+                </div>
+                <div class="ipad-pro">
+                    <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:80/plain/https://cellphones.com.vn/media/catalog/product/i/p/ipad-pro-13-select-wifi-spacegray-202210-02_1.jpg" class="img-mac" alt="">
+                    <div class="name">iPad Pro 11 inch 2022 M2 Wifi 256GB I Chính hãng Apple Việt Nam</div>
+                    <br>
+                    <p class="gia">23.290.000₫</p>
+                    <br> <br>
+                    <div class="them-mua-all">
+                        <button id="themgiohang" class="them-mua">Thêm <i class="fas fa-shopping-cart"></i></button>
+                        <button id="muahang" class="them-mua">Mua ngay</button>
+                    </div>
+                </div>
+                <div class="ipad-pro">
+                    <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:80/plain/https://cellphones.com.vn/media/catalog/product/i/p/ipad-pro-13-select-wifi-spacegray-202210-02_3.jpg" class="img-mac" alt="">
+                    <div class="name">iPad Pro 12.9 inch 2022 M2 Wifi 128GB I Chính hãng Apple Việt Nam</div>
+                    <br>
+                    <p class="gia">28.190.000₫</p>
+                    <br> <br>
+                    <div class="them-mua-all">
+                        <button id="themgiohang" class="them-mua">Thêm <i class="fas fa-shopping-cart"></i></button>
+                        <button id="muahang" class="them-mua">Mua ngay</button>
+                    </div>
+                </div>
+                <div class="ipad-pro">
+                    <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:80/plain/https://cellphones.com.vn/media/catalog/product/i/p/ipad-pro-13-select-wifi-spacegray-202210-02_3_3.jpg" class="img-mac" alt="">
+                    <div class="name">iPad Pro 12.9 inch 2022 M2 Wifi + 5G 256GB I Chính hãng Apple Việt Nam</div>
+                    <br>
+                    <p class="gia">35.990.000₫</p>
+                    <br> <br>
+                    <div class="them-mua-all">
+                        <button id="themgiohang" class="them-mua">Thêm <i class="fas fa-shopping-cart"></i></button>
+                        <button id="muahang" class="them-mua">Mua ngay</button>
+                    </div>
+                </div>
+            <br>            
+            </div>
+
+
+
+
+
+
+
+
+
+            <div class="ch" id="ipad-air-all">
+                <div class="ipad-pro">
+                    <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:80/plain/https://cellphones.com.vn/media/catalog/product/1/_/1_253_5.jpg" class="img-mac" alt="">
+                    <div class="name">iPad Air 5 10.9 inch (2022) 5G 64GB I Chính hãng Apple Việt Nam</div>
+                    <br>
+                    <p class="gia">19.890.000₫</p>
+                    <br><br>
+                    <div class="them-mua-all">
+                        <button id="themgiohang" class="them-mua">Thêm <i class="fas fa-shopping-cart"></i></button>
+                        <button id="muahang" class="them-mua">Mua ngay</button>
+                    </div>
+                </div>
+                <div class="ipad-pro">
+                    <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:80/plain/https://cellphones.com.vn/media/catalog/product/1/_/1_253_8.jpg" class="img-mac" alt="">
+                    <div class="name">iPad Air 5 10.9 inch (2022) 5G 256GB I Chính hãng Apple Việt Nam</div>
+                    <br>
+                    <p class="gia">20.190.000₫</p>
+                    <br> <br>
+                    <div class="them-mua-all">
+                        <button id="themgiohang" class="them-mua">Thêm <i class="fas fa-shopping-cart"></i></button>
+                        <button id="muahang" class="them-mua">Mua ngay</button>
+                    </div>
+                </div>
+                <div class="ipad-pro">
+                    <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:80/plain/https://cellphones.com.vn/media/catalog/product/1/_/1_253_7.jpg" class="img-mac" alt="">
+                    <div class="name">iPad Air 5 10.9 inch (2022) 256GB I Chính hãng Apple Việt Nam</div>
+                    <br>
+                    <p class="gia">17.590.000₫</p>
+                    <br> <br>
+                    <div class="them-mua-all">
+                        <button id="themgiohang" class="them-mua">Thêm <i class="fas fa-shopping-cart"></i></button>
+                        <button id="muahang" class="them-mua">Mua ngay</button>
+                    </div>
+                </div>
+                <div class="ipad-pro">
+                    <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:80/plain/https://cellphones.com.vn/media/catalog/product/5/_/5_158_3.jpg" class="img-mac" alt="">
+                    <div class="name">iPad Air 5 10.9 inch (2022) 64GB I Chính hãng Apple Việt Nam</div>
+                    <br>
+                    <p class="gia">13.590.000₫</p>
+                    <br> <br>
+                    <div class="them-mua-all">
+                        <button id="themgiohang" class="them-mua">Thêm <i class="fas fa-shopping-cart"></i></button>
+                        <button id="muahang" class="them-mua">Mua ngay</button>
+                    </div>
+                </div>
+            <br>            
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div class="ch" id="ipad-mini-all">
+                <div class="ipad-pro">
+                    <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:80/plain/https://cellphones.com.vn/media/catalog/product/3/_/3_229.jpg" class="img-mac" alt="">
+                    <div class="name">iPad mini 6 WiFi 64GB | Chính hãng Apple Việt Nam</div>
+                    <br>
+                    <p class="gia">11.390.000₫</p>
+                    <br><br>
+                    <div class="them-mua-all">
+                        <button id="themgiohang" class="them-mua">Thêm <i class="fas fa-shopping-cart"></i></button>
+                        <button id="muahang" class="them-mua">Mua ngay</button>
+                    </div>
+                </div>
+                <div class="ipad-pro">
+                    <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:80/plain/https://cellphones.com.vn/media/catalog/product/4/_/4_190_2.jpg" class="img-mac" alt="">
+                    <div class="name">iPad mini 6 WiFi 256GB | Chính hãng Apple Việt Nam</div>
+                    <br>
+                    <p class="gia">16.490.000₫</p>
+                    <br> <br>
+                    <div class="them-mua-all">
+                        <button id="themgiohang" class="them-mua">Thêm <i class="fas fa-shopping-cart"></i></button>
+                        <button id="muahang" class="them-mua">Mua ngay</button>
+                    </div>
+                </div>
+                <div class="ipad-pro">
+                    <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:80/plain/https://cellphones.com.vn/media/catalog/product/2/_/2_246_2.jpg" class="img-mac" alt="">
+                    <div class="name">iPad mini 6 LTE 4GB 64GB | Chính hãng Apple Việt Nam</div>
+                    <br>
+                    <p class="gia">15.390.000₫</p>
+                    <br> <br>
+                    <div class="them-mua-all">
+                        <button id="themgiohang" class="them-mua">Thêm <i class="fas fa-shopping-cart"></i></button>
+                        <button id="muahang" class="them-mua">Mua ngay</button>
+                    </div>
+                </div>
+                <div class="ipad-pro">
+                    <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:80/plain/https://cellphones.com.vn/media/catalog/product/t/_/t_i_xu_ng_2__1_8_2.png" class="img-mac" alt="">
+                    <div class="name">iPad mini 6 WiFi 64GB Chính hãng Việt Nam - Đã kích hoạt</div>
+                    <br>
+                    <p class="gia">10.290.000₫</p>
+                    <br> <br>
+                    <div class="them-mua-all">
+                        <button id="themgiohang" class="them-mua">Thêm <i class="fas fa-shopping-cart"></i></button>
+                        <button id="muahang" class="them-mua">Mua ngay</button>
+                    </div>
+                </div>
+            <br>            
+            </div>
+
+
+
+
+
+
+
+
+
+
+            <div class="ch" id="ipad-wifi-all">
+                <div class="ipad-pro">
+                    <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:80/plain/https://cellphones.com.vn/media/catalog/product/x/_/x_mmas.png" class="img-mac" alt="">
+                    <div class="name">iPad 10.2 2021 WiFi 64GB | Chính hãng Apple Việt Nam</div>
+                    <br>
+                    <p class="gia">7.790.000₫</p>
+                    <br><br>
+                    <div class="them-mua-all">
+                        <button id="themgiohang" class="them-mua">Thêm <i class="fas fa-shopping-cart"></i></button>
+                        <button id="muahang" class="them-mua">Mua ngay</button>
+                    </div>
+                </div>
+                <div class="ipad-pro">
+                    <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:80/plain/https://cellphones.com.vn/media/catalog/product/x/_/x_mmas_4.png" class="img-mac" alt="">
+                    <div class="name">iPad 10.2 2021 WiFi 256GB | Chính hãng Apple Việt Nam</div>
+                    <br>
+                    <p class="gia">11.090.000₫</p>
+                    <br> <br>
+                    <div class="them-mua-all">
+                        <button id="themgiohang" class="them-mua">Thêm <i class="fas fa-shopping-cart"></i></button>
+                        <button id="muahang" class="them-mua">Mua ngay</button>
+                    </div>
+                </div>
+                <div class="ipad-pro">
+                    <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:80/plain/https://cellphones.com.vn/media/catalog/product/i/p/ipad-2022-hero-silver-wifi-select_1_1.png" class="img-mac" alt="">
+                    <div class="name">iPad Gen 10 10.9 inch 2022 Wifi + 5G 64GB I Chính hãng Apple Việt Nam</div>
+                    <br>
+                    <p class="gia">13.990.000₫</p>
+                    <br> <br>
+                    <div class="them-mua-all">
+                        <button id="themgiohang" class="them-mua">Thêm <i class="fas fa-shopping-cart"></i></button>
+                        <button id="muahang" class="them-mua">Mua ngay</button>
+                    </div>
+                </div>
+                <div class="ipad-pro">
+                    <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:80/plain/https://cellphones.com.vn/media/catalog/product/i/p/ipad-2022-hero-silver-wifi-select_1_1_1.png" class="img-mac" alt="">
+                    <div class="name">iPad Gen 10 10.9 inch 2022 Wifi + 5G 256GB I Chính hãng Apple Việt Nam</div>
+                    <br>
+                    <p class="gia">17.990.000₫</p>
+                    <br> <br>
+                    <div class="them-mua-all">
+                        <button id="themgiohang" class="them-mua">Thêm <i class="fas fa-shopping-cart"></i></button>
+                        <button id="muahang" class="them-mua">Mua ngay</button>
+                    </div>
+                </div>
+            <br>            
+            </div>
+    </div>
+    <br>
+
+
+
+
+
+
+
+    
+
+
+    
+    <div id="accessory-all">
+        <h2 class="accessory"><i class="fab fa-apple"></i> Accessory</h2>
+        <br>
+        <video loop autoplay src="https://www.apple.com/105/media/us/airpods/2022/dc1310af-8cb9-4218-8d40-26bbe6a1d307/anim/hero/large_2x.mp4" type="video/mp4" class="video-accessory"></video>
+    <br> <br>
+        <div class="ch-accessory">
+
+            
+            <div class="btn-heading-all">
+                <button id="heading-airpods" class="btn-iphone">
+                    <i class="fas fa-bars"></i>
+                    Airpods
+                </button>
+                <button id="heading-sac" class="btn-iphone">
+                    <i class="fas fa-bars"></i>
+                    Sạc Apple
+                </button>
+                <button id="heading-op" class="btn-iphone">
+                    <i class="fas fa-bars"></i>
+                    Ốp Apple
+                </button>
+            </div>
+            <br>
+
+
+
+
+            <div class="ch" id="airpods">
+            <div class="iphone15prm">
+                <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:80/plain/https://cellphones.com.vn/media/catalog/product/g/r/group_170_1_1.png" class="img-iphone15prm1T" alt="">
+                <p class="name">Tai nghe Bluetooth Apple AirPods 3 2022 sạc có dây | Chính hãng Apple</p>
+                <br>
+                <p class="gia">4.090.000₫</p>
+                <br>
+                <br>
+                <br>
+                <div class="them-mua-all">
+                    <button id="themgiohang" class="them-mua">Thêm <i class="fas fa-shopping-cart"></i></button>
+                    <button id="muahang" class="them-mua">Mua ngay</button>
+                </div>
+            </div>
+            <div class="iphone15prm">
+                <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:80/plain/https://cellphones.com.vn/media/catalog/product/a/p/apple-airpods-pro-2-usb-c_1_.png" class="img-iphone15prm1T" alt="">
+                <p class="name">Tai nghe Bluetooth Apple AirPods Pro 2022 | Chính hãng Apple Việt Nam</p>
+                <br>
+                <p class="gia">5.190.000₫</p>
+                <br>
+                <br>
+                <br>
+                <div class="them-mua-all">
+                    <button id="themgiohang" class="them-mua">Thêm <i class="fas fa-shopping-cart"></i></button>
+                    <button id="muahang" class="them-mua">Mua ngay</button>
+                </div>
+            </div>
+            <div class="iphone15prm">
+                <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:80/plain/https://cellphones.com.vn/media/catalog/product/a/p/apple-airpods-pro-2-usb-c_1_.png" class="img-iphone15prm1T" alt="">
+                <p class="name">Tai nghe Bluetooth Apple AirPods Pro 2 2023 USB-C | Chính hãng Apple</p>
+                <br>
+                <p class="gia">5.990.000₫</p>
+                <br>
+                <br>
+                <br>
+                <div class="them-mua-all">
+                    <button id="themgiohang" class="them-mua">Thêm <i class="fas fa-shopping-cart"></i></button>
+                    <button id="muahang" class="them-mua">Mua ngay</button>
+                </div>
+            </div>
+            <div class="iphone15prm">
+                <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:80/plain/https://cellphones.com.vn/media/catalog/product/g/r/group_169_2.png" class="img-iphone15prm1T" alt="">
+                <p class="name">Tai nghe Bluetooth Apple AirPods 2 | Chính hãng Apple Việt Nam</p>
+                <br>
+                <p class="gia">2.690.000₫</p>
+                <br>
+                <br>
+                <br>
+                <div class="them-mua-all">
+                    <button id="themgiohang" class="them-mua">Thêm <i class="fas fa-shopping-cart"></i></button>
+                    <button id="muahang" class="them-mua">Mua ngay</button>
+                </div>
+            </div>
+            <div class="iphone15prm">
+                <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:80/plain/https://cellphones.com.vn/media/catalog/product/g/r/group_170_9.png" class="img-iphone15prm1T" alt="">
+                <p class="name">Tai nghe Bluetooth Apple AirPods 3 Chính hãng - Đã kích hoạt</p>
+                <br>
+                <p class="gia">3.890.000₫</p>
+                <br>
+                <br>
+                <br>
+                <div class="them-mua-all">
+                    <button id="themgiohang" class="them-mua">Thêm <i class="fas fa-shopping-cart"></i></button>
+                    <button id="muahang" class="them-mua">Mua ngay</button>
+                </div>
+            </div>
+            <div class="iphone15prm">
+                <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:80/plain/https://cellphones.com.vn/media/catalog/product/g/r/group_171_3.png" class="img-iphone15prm1T" alt="">
+                <p class="name">Tai nghe chụp tai chống ồn Apple AirPods Max | Chính hãng Apple Việt Nam</p>
+                <br>
+                <p class="gia">13.900.000₫</p>
+                <br>
+                <br>
+                <br>
+                <div class="them-mua-all">
+                    <button id="themgiohang" class="them-mua">Thêm <i class="fas fa-shopping-cart"></i></button>
+                    <button id="muahang" class="them-mua">Mua ngay</button>
+                </div>
+            </div>
+            <div class="iphone15prm">
+                <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:80/plain/https://cellphones.com.vn/media/catalog/product/a/p/apple_airpods_2_1.png" class="img-iphone15prm1T" alt="">
+                <p class="name">Tai nghe Bluetooth Apple AirPods 2 Chính hãng VN/A - Đã kích hoạt bảo hành</p>
+                <br>
+                <p class="gia">2.290.000₫</p>
+                <br>
+                <br>
+                <br>
+                <div class="them-mua-all">
+                    <button id="themgiohang" class="them-mua">Thêm <i class="fas fa-shopping-cart"></i></button>
+                    <button id="muahang" class="them-mua">Mua ngay</button>
+                </div>
+            </div>
+            <div class="iphone15prm">
+                <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:80/plain/https://cellphones.com.vn/media/catalog/product/a/p/apple_airpods_3_2.png" class="img-iphone15prm1T" alt="">
+                <p class="name">Tai nghe Bluetooth Apple AirPods 3 2022 sạc có dây | Chính hãng - Đã Kích Hoạt</p>
+                <br>
+                <p class="gia">3.600.000₫</p>
+                <br>
+                <br>
+                <br>
+                <div class="them-mua-all">
+                    <button id="themgiohang" class="them-mua">Thêm <i class="fas fa-shopping-cart"></i></button>
+                    <button id="muahang" class="them-mua">Mua ngay</button>
+                </div>
+            </div>
+            </div>
+
+
+
+
+            <div class="ch" id="sac-apple">
+            <div class="iphone15prm">
+                <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:80/plain/https://cellphones.com.vn/media/catalog/product/g/r/group_117_1.png" class="img-iphone15prm1T" alt="">
+                <p class="name">Sạc nhanh 20W Apple MHJE3ZA | Chính hãng</p>
+                <br>
+                <p class="gia">490.000₫</p>
+                <br>
+                <br>
+                <br>
+                <div class="them-mua-all">
+                    <button id="themgiohang" class="them-mua">Thêm <i class="fas fa-shopping-cart"></i></button>
+                    <button id="muahang" class="them-mua">Mua ngay</button>
+                </div>
+            </div>
+            <div class="iphone15prm">
+                <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:80/plain/https://cellphones.com.vn/media/catalog/product/g/r/group_8_1__2.png" class="img-iphone15prm1T" alt="">
+                <p class="name">Củ sạc Apple 2 cổng Type-C 35W MNWP3ZA-A</p>
+                <br>
+                <p class="gia">1.490.000₫</p>
+                <br>
+                <br>
+                <br>
+                <div class="them-mua-all">
+                    <button id="themgiohang" class="them-mua">Thêm <i class="fas fa-shopping-cart"></i></button>
+                    <button id="muahang" class="them-mua">Mua ngay</button>
+                </div>
+            </div>
+            <div class="iphone15prm">
+                <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:80/plain/https://cellphones.com.vn/media/catalog/product/s/a/sac-nhanh-usb-c-apple-watch-mt0h3vn-a-day-du-1m-1.png" class="img-iphone15prm1T" alt="">
+                <p class="name">Sạc nhanh Apple Watch USB-C dây dù 1M</p>
+                <br>
+                <p class="gia">790.000₫</p>
+                <br>
+                <br>
+                <br>
+                <div class="them-mua-all">
+                    <button id="themgiohang" class="them-mua">Thêm <i class="fas fa-shopping-cart"></i></button>
+                    <button id="muahang" class="them-mua">Mua ngay</button>
+                </div>
+            </div>
+            <div class="iphone15prm">
+                <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:80/plain/https://cellphones.com.vn/media/catalog/product/m/d/md836_1.png" class="img-iphone15prm1T" alt="">
+                <p class="name">Sạc Apple 12W USB Power Adapter - MGN03ZM</p>
+                <br>
+                <p class="gia">280.000₫</p>
+                <br>
+                <br>
+                <br>
+                <div class="them-mua-all">
+                    <button id="themgiohang" class="them-mua">Thêm <i class="fas fa-shopping-cart"></i></button>
+                    <button id="muahang" class="them-mua">Mua ngay</button>
+                </div>
+            </div>
+            </div>
+
+
+
+
+
+            <div class="ch" id="op-apple">
+            <div class="iphone15prm">
+                <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:80/plain/https://cellphones.com.vn/media/catalog/product/o/p/op-lung-iphone-14-plus-apple-silicone-case-with-magsafe-clear.png" class="img-iphone15prm1T" alt="">
+                <p class="name">Ốp lưng iPhone 14 Plus / 15 Plus Apple Silicone Case hỗ trợ sạc Magsafe Clear</p>
+                <br>
+                <p class="gia">1.272.000₫</p>
+                <br>
+                <br>
+                <br>
+                <div class="them-mua-all">
+                    <button id="themgiohang" class="them-mua">Thêm <i class="fas fa-shopping-cart"></i></button>
+                    <button id="muahang" class="them-mua">Mua ngay</button>
+                </div>
+            </div>
+            <div class="iphone15prm">
+                <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:80/plain/https://cellphones.com.vn/media/catalog/product/2/_/2_653.png" class="img-iphone15prm1T" alt="">
+                <p class="name">Ốp lưng iPhone 14 Pro Apple Silicone Case hỗ trợ sạc Magsafe Clear</p>
+                <br>
+                <p class="gia">1.113.000₫</p>
+                <br>
+                <br>
+                <br>
+                <div class="them-mua-all">
+                    <button id="themgiohang" class="them-mua">Thêm <i class="fas fa-shopping-cart"></i></button>
+                    <button id="muahang" class="them-mua">Mua ngay</button>
+                </div>
+            </div>
+            <div class="iphone15prm">
+                <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:80/plain/https://cellphones.com.vn/media/catalog/product/o/p/op-lung-iphone-14-plus-apple-silicone-case-with-magsafe.png" class="img-iphone15prm1T" alt="">
+                <p class="name">Ốp lưng iPhone 14 Plus / 15 Plus Apple Silicone Case hỗ trợ sạc Magsafe</p>
+                <br>
+                <p class="gia">1.272.000₫</p>
+                <br>
+                <br>
+                <br>
+                <div class="them-mua-all">
+                    <button id="themgiohang" class="them-mua">Thêm <i class="fas fa-shopping-cart"></i></button>
+                    <button id="muahang" class="them-mua">Mua ngay</button>
+                </div>
+            </div>
+            <div class="iphone15prm">
+                <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:80/plain/https://cellphones.com.vn/media/catalog/product/o/p/op-lung-iphone-14-pro-max-apple-silicone-case-with-magsafe-clear.png" class="img-iphone15prm1T" alt="">
+                <p class="name">Ốp lưng iPhone 14 Pro Max Apple Silicone Case hỗ trợ sạc MagSafe Clear</p>
+                <br>
+                <p class="gia">1.150.000₫</p>
+                <br>
+                <br>
+                <br>
+                <div class="them-mua-all">
+                    <button id="themgiohang" class="them-mua">Thêm <i class="fas fa-shopping-cart"></i></button>
+                    <button id="muahang" class="them-mua">Mua ngay</button>
+                </div>
+            </div>
+            <div class="iphone15prm">
+                <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:80/plain/https://cellphones.com.vn/media/catalog/product/o/p/op-lung-magsafe-iphone-13-apple-leather-case.png" class="img-iphone15prm1T" alt="">
+                <p class="name">Ví da Apple cho iPhone chính hãng hỗ trợ sạc MagSafe chính hãng Apple</p>
+                <br>
+                <p class="gia">1.134.000₫</p>
+                <br>
+                <br>
+                <br>
+                <div class="them-mua-all">
+                    <button id="themgiohang" class="them-mua">Thêm <i class="fas fa-shopping-cart"></i></button>
+                    <button id="muahang" class="them-mua">Mua ngay</button>
+                </div>
+            </div>
+            <div class="iphone15prm">
+                <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:80/plain/https://cellphones.com.vn/media/catalog/product/o/p/op-lung-iphone-15-pro-max-finewoven-case-with-magsafe.png" class="img-iphone15prm1T" alt="">
+                <p class="name">Ốp lưng iPhone 15 Pro Max Apple FineWoven Case hỗ trợ sạc Magsafe</p>
+                <br>
+                <p class="gia">1.512.000₫</p>
+                <br>
+                <br>
+                <br>
+                <div class="them-mua-all">
+                    <button id="themgiohang" class="them-mua">Thêm <i class="fas fa-shopping-cart"></i></button>
+                    <button id="muahang" class="them-mua">Mua ngay</button>
+                </div>
+            </div>
+            <div class="iphone15prm">
+                <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:80/plain/https://cellphones.com.vn/media/catalog/product/o/p/op-lung-iphone-14-plus-apple-leather-case-with-magsafe.png" class="img-iphone15prm1T" alt="">
+                <p class="name">Ốp lưng iPhone 14 Plus / 15 Plus Apple Leather Case hỗ trợ sạc Magsafe</p>
+                <br>
+                <p class="gia">1.512.000₫</p>
+                <br>
+                <br>
+                <br>
+                <div class="them-mua-all">
+                    <button id="themgiohang" class="them-mua">Thêm <i class="fas fa-shopping-cart"></i></button>
+                    <button id="muahang" class="them-mua">Mua ngay</button>
+                </div>
+            </div>
+            <div class="iphone15prm">
+                <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:80/plain/https://cellphones.com.vn/media/catalog/product/o/p/op-lung-iphone-14-pro-apple-silicone-case-with-magsafe.png" class="img-iphone15prm1T" alt="">
+                <p class="name">Ốp lưng iPhone 14 Pro Apple Silicone Case hỗ trợ sạc Magsafe</p>
+                <br>
+                <p class="gia">1.113.000₫</p>
+                <br>
+                <br>
+                <br>
+                <div class="them-mua-all">
+                    <button id="themgiohang" class="them-mua">Thêm <i class="fas fa-shopping-cart"></i></button>
+                    <button id="muahang" class="them-mua">Mua ngay</button>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <br> <br>
+
+
+
+
+
+
+
+    <div id="comment-all">
+        <p class="text-comment">Comment</p>
+        <form id="input-btn-cmt">        
+            <input id="input-cmt" type="text">
+            <button id="btn-cmt" type="submit">Gửi</button>
+        </form>
+        <div id="comment">
+        </div>
+    </div>
+
+
+
+    <footer class="footer">
+        <p class="text-lienhe">Liên hệ với chúng tôi</p>
+        <div class="img-lienhe-all">
+            <a href="https://www.facebook.com/profile.php?id=100039022268121&mibextid=LQQJ4d">
+                <img class="img-lienhe" src="https://img-cache.coccoc.com/image2?i=1&l=12/271119358" alt="">
+            </a>
+            <img class="img-lienhe" src="https://img-cache.coccoc.com/image2?i=1&l=66/70069804" alt="">
+
+        </div>
+        <p class="text-team">Nhóm 2</p>
+        <div class="member-all">
+            <div class="member-1 member">
+                <img class="img-member" src="/image/z4956445973064_953fae90d4419a89a9ef7dbd13046739.jpg" alt="">
+                <p class="name-member">Lê Khanh</p>
+            </div>
+            <div class="member-2 member">
+                <img class="img-member" src="/image/386737547_1016236516353748_1602792499657217343_n.jpg" alt="">
+                <p class="name-member">Lê Minh Tú</p>
+            </div>
+            <div class="member-3 member">
+                <img class="img-member" src="/image/Ảnh chụp màn hình 2023-12-09 013138.png" alt="">
+                <p class="name-member"> Vũ Công Chung Anh</p>
+            </div>
+        </div>
+
+    </footer>
+    <script src="/js/app.js" type="module"></script>
+</body>
+</html>

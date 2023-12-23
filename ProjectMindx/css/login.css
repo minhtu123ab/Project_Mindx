@@ -1,0 +1,347 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(https://static-images.vnncdn.net/files/publish/2022/8/18/iphone-15-pro-1118.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#all-dn{
+    display: flex;
+    justify-content: center;
+    animation: allDn 1s;
+}
+@keyframes allDn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.login-all{
+    padding: 55px 55px 70px 55px;
+    background-color: aliceblue;
+    border-radius: 10%;
+    border: 5px solid white;
+    box-shadow: 0px 0px 35px 5px rgba(255, 255, 255, 0.76);
+    animation: log 3s linear infinite;
+}
+.heading{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 10%;
+}
+.usename{
+    margin-bottom: 7%;
+    width: 100%;
+    height: 12%;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.password{
+    width: 100%;
+    height: 12%;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 14%;
+}
+
+.button-all{
+    margin-bottom: 10%;
+    display: flex;
+    justify-content: space-around;
+}
+.login2{
+    width: 42%;
+    height: 34px;
+    font-weight: bold;
+    font-size: 17px;
+    border-radius: 10px;
+}
+.text{
+    font-weight: bold;
+    font-size: 19px;
+}
+ @keyframes log{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(30px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+ }
+.flash{
+    display: flex;
+    justify-content: center;
+}
+.flash-all {
+    padding: 70px 160px 70px 160px;
+    background: linear-gradient( to top, white, rgba(255, 255, 255, 0));
+    clip-path: polygon(0% 0%, 100% 0%, 60% 100%, 40% 100%); 
+}
+
+
+
+
+
+#all-dn-1{
+    display: none;
+    justify-content: center;
+    animation: allDn1 1s;
+}
+@keyframes allDn1 {
+    from {
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.login-all-1{
+    padding: 20px 30px 40px 30px;
+    background-color: aliceblue;
+    border-radius: 10%;
+    border: 5px solid white;
+    box-shadow: 0px 0px 35px 5px rgba(255, 255, 255, 0.76);
+    animation: log1 3s linear infinite;
+}
+.heading-1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 4%;
+}
+.usename-0{
+    margin-bottom: 6%;
+    width: 100%;
+    height: 9.5%;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.usename-1{
+    margin-bottom: 6%;
+    width: 100%;
+    height: 9.5%;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.password-1{
+    width: 100%;
+    height: 9.5%;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 6%;
+}
+
+.button-all-1{
+    margin-bottom: 20%;
+    display: flex;
+    justify-content: space-around;
+}
+.login2-1{
+    width: 42%;
+    height: 34px;
+    font-weight: bold;
+    font-size: 17px;
+    border-radius: 10px;
+}
+.text-1{
+    font-weight: bold;
+    font-size: 19px;
+}
+.password-again{
+    margin-bottom: 10%;
+}
+ @keyframes log1{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(30px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+ }
+
+.camera-all{
+    display: flex;
+    justify-content: center;
+}
+.camera{
+    width: 120px;
+    height: 45px;
+    display: flex;
+    border-radius: 100%;
+    margin-top: -20px;
+}
+.camera-1{
+    width: 120px;
+    height: 55px;
+    background-color: rgb(19, 19, 19);
+    margin-top: -40px;
+    border-radius: 20px;
+}
+input{
+    font-size: 16px;
+    border: 2px solid black !important;
+    background-color: #f8f8f8;
+    color: #333;
+    padding-left: 3px;
+}
+input:focus {
+    border: 3px solid black !important;
+}
+button{
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(196, 196, 196);
+}
+
+
+.all-noerror{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    z-index: 101;
+}
+.all-noerror-reg{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    z-index: 101;
+}
+.modal img{
+    width: 19px;
+    height: 19px;
+    margin-left: 4px;
+}
+.all-noerror .modal img{
+    width: 22px;
+    height: 22px;
+    margin-left: 4px;
+    border-radius: 50%;
+}
+.modal{
+    background-color: rgb(255, 135, 135);
+    padding: 2vw;
+    border-radius: 2vw;
+    text-align: center;
+    font-size: 18px;
+    position: absolute;
+    top: 40px;
+    animation: pushcart 3.5s;
+}
+.all-noerror .modal{
+    background-color: rgb(54, 119, 54);
+    padding: 2vw;
+    border-radius: 2vw;
+    text-align: center;
+    font-size: 18px;
+    position: absolute;
+    top: 40px;
+    animation: pushcart 3.5s;
+}
+.all-noerror-reg .modal{
+    background-color: rgb(54, 119, 54);
+    padding: 2vw;
+    border-radius: 2vw;
+    text-align: center;
+    font-size: 18px;
+    position: absolute;
+    top: 40px;
+    animation: pushcartreg 3.5s;
+}
+@keyframes pushcart {
+    0% {
+      transform: translateY(-100%);
+    }
+    25% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(0);
+    }
+    75% {
+      transform: translateY(0);
+    }
+    100%{
+        transform: translateY(-200%);
+    }
+}
+@keyframes pushcartreg {
+    0% {
+      transform: translateY(-100%);
+    }
+    25% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(0);
+    }
+    75% {
+      transform: translateY(0);
+    }
+    100%{
+        transform: translateY(-200%);
+    }
+}
+
+#erroruse{
+    color: red;
+    position: absolute;
+    top: 268px;
+    font-size: 13px;
+}
+#errorpass{
+    color: red;
+    position: absolute;
+    top: 361px;
+    font-size: 13px;
+}
+#errorpassagain{
+    color: red;
+    position: absolute;
+    top: 452px;
+    font-size: 13px;
+}
+#errorname{
+    color: red;
+    position: absolute;
+    top: 173.6px;
+    font-size: 13px;
+}
+#erroruselogin{
+    color: red;
+    position: absolute;
+    top: 218px;
+    font-size: 13px;
+}
+
